@@ -1,0 +1,16 @@
+{
+	"manifest_version": 2,
+	"name": "Web-Palette",
+	"version": "1.0.0",
+
+	"description": "A command palette to help you control web apps with your keyboard.",
+	"homepage_url": "https://github.com/RangerMauve/web-palette",
+
+	"icons": {
+	},
+
+	"content_scripts": [{
+		"matches": ["<all_urls>"],
+		"js": ["pallet.js"]
+	}]
+}
