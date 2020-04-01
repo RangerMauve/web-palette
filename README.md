@@ -1,6 +1,8 @@
 # web-palette
 A Web Extension that provides a command palette for easily navigating a page with your keyboard.
 
+![Screenshot of extension in action](Screenshot.png)
+
 ## How it works
 
 - Injects a contect script on all your pages which watches for `ctrl+e`
